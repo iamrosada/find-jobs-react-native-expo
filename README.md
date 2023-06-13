@@ -4,7 +4,7 @@ Use [`expo-router`](https://expo.github.io/router) to build native navigation us
 
 ## 🚀 How to run
 
-do need to understand how to clone the repository and how to install all stuff 
+you need to understand how to clone the repository and how to install all stuff 
 
 ```sh
 npm run start ios
