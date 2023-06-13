@@ -2,10 +2,12 @@
 
 Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
 
-## 🚀 How to use
+## 🚀 How to run
+
+do need to understand how to clone the repository and how to install all stuff 
 
 ```sh
-npx create-expo-app -e with-router
+npm run start ios
 ```
 
 ## 📝 Notes
