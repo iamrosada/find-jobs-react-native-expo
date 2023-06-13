@@ -9,6 +9,7 @@ const useFetch = (endpoint, query) => {
   const options = {
     method: "GET",
     url: `https://jsearch.p.rapidapi.com/${endpoint}`,
+
     headers: {
       "X-RapidAPI-Key": "4a0f2a6467mshc7c418da2929cc6p1e87d4jsn3b99706bfb1e",
       "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
@@ -23,6 +24,7 @@ const useFetch = (endpoint, query) => {
       const response = await axios.request(options);
 
       setData(response.data.data);
+      console.log(response.data.data);
       setIsLoading(false);
     } catch (error) {
       setError(error);
